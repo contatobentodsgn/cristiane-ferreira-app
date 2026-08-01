@@ -26,7 +26,7 @@
  * apresentação.
  */
 
-const VERSAO = "cf-v1";
+const VERSAO = "cf-v2";
 const CACHE = `${VERSAO}`;
 
 /** A raiz da instalação. No GitHub Pages é a subpasta do repositório. */
@@ -82,7 +82,21 @@ self.addEventListener("activate", (evento) => {
 async function redePrimeiro(requisicao) {
   const cache = await caches.open(CACHE);
   try {
-    const resposta = await fetch(requisicao);
+    /**
+     * `cache: "no-cache"` não quer dizer "não use cache" — quer dizer
+     * "revalide com o servidor antes de usar".
+     *
+     * Sem isto, um `fetch()` normal é atendido pelo cache HTTP do
+     * navegador, e o GitHub Pages manda `cache-control: max-age=600`.
+     * "Rede primeiro" viraria "cache do navegador primeiro" e um deploy
+     * novo levaria até dez minutos para aparecer. Medido, não suposto.
+     *
+     * O custo é um 304 quando nada mudou: cabeçalhos, sem corpo.
+     */
+    const resposta = await fetch(requisicao.url, {
+      cache: "no-cache",
+      credentials: "same-origin",
+    });
     if (resposta && resposta.ok) cache.put(requisicao, resposta.clone());
     return resposta;
   } catch (erro) {

@@ -2,4 +2,4 @@
 2:I[5433,["/cristiane-ferreira-app/_next/static/chunks/0lhpcl9vue0dm.js","/cristiane-ferreira-app/_next/static/chunks/08i3qwm_r6g6n.js"],"default"]
 3:I[72328,["/cristiane-ferreira-app/_next/static/chunks/0lhpcl9vue0dm.js","/cristiane-ferreira-app/_next/static/chunks/08i3qwm_r6g6n.js"],"default"]
 4:[]
-0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"AJtpUe9WxkRq6BpNBysqm"}
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"xXZMEo_53Ni4nNnTy1CMo"}
