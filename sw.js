@@ -17,7 +17,10 @@
  *   resto (mesma origem, GET) → rede primeiro
  *
  * Rede primeiro no HTML significa que **um deploy novo é pego na hora**,
- * sempre que houver rede. Cache primeiro nos estáticos é seguro porque o
+ * sempre que houver rede — mas só com o `cache: "no-cache"` de
+ * `redePrimeiro()`, e a razão está lá embaixo. Sem ele, "rede primeiro"
+ * era "cache do navegador primeiro" e um deploy levava dez minutos.
+ * Cache primeiro nos estáticos é seguro porque o
  * Next põe hash de conteúdo no nome: `page.a1b2c3.js` nunca muda de
  * conteúdo — quando o conteúdo muda, o nome muda junto.
  *
