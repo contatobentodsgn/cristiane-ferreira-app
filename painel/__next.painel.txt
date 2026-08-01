@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:I[23549,["/_next/static/chunks/17bn6p352tz8x.js","/_next/static/chunks/08i3qwm_r6g6n.js"],"ClientSegmentRoot"]
-3:I[21738,["/_next/static/chunks/17bn6p352tz8x.js","/_next/static/chunks/08i3qwm_r6g6n.js","/_next/static/chunks/0rvrko3027otj.js"],"default"]
-4:I[5433,["/_next/static/chunks/17bn6p352tz8x.js","/_next/static/chunks/08i3qwm_r6g6n.js"],"default"]
-5:I[72328,["/_next/static/chunks/17bn6p352tz8x.js","/_next/static/chunks/08i3qwm_r6g6n.js"],"default"]
-0:{"rsc":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/0rvrko3027otj.js","async":true}]],["$","$L2",null,{"Component":"$3","slots":{"children":["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]},"serverProvidedParams":{"params":{},"promises":["$@6"]}}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"xSQ8FFqyP7zDFCX0u7vgJ"}
+2:I[23549,["/cristiane-ferreira-app/_next/static/chunks/17bn6p352tz8x.js","/cristiane-ferreira-app/_next/static/chunks/08i3qwm_r6g6n.js"],"ClientSegmentRoot"]
+3:I[21738,["/cristiane-ferreira-app/_next/static/chunks/17bn6p352tz8x.js","/cristiane-ferreira-app/_next/static/chunks/08i3qwm_r6g6n.js","/cristiane-ferreira-app/_next/static/chunks/0rvrko3027otj.js"],"default"]
+4:I[5433,["/cristiane-ferreira-app/_next/static/chunks/17bn6p352tz8x.js","/cristiane-ferreira-app/_next/static/chunks/08i3qwm_r6g6n.js"],"default"]
+5:I[72328,["/cristiane-ferreira-app/_next/static/chunks/17bn6p352tz8x.js","/cristiane-ferreira-app/_next/static/chunks/08i3qwm_r6g6n.js"],"default"]
+0:{"rsc":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/cristiane-ferreira-app/_next/static/chunks/0rvrko3027otj.js","async":true}]],["$","$L2",null,{"Component":"$3","slots":{"children":["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]},"serverProvidedParams":{"params":{},"promises":["$@6"]}}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"vER6PciOtnCwAJ7fYVklO"}
 6:"$0:rsc:props:children:1:props:serverProvidedParams:params"
