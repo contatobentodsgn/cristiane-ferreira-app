@@ -29,7 +29,7 @@
  * apresentação.
  */
 
-const VERSAO = "cf-v2";
+const VERSAO = "cf-v3";
 const CACHE = `${VERSAO}`;
 
 /** A raiz da instalação. No GitHub Pages é a subpasta do repositório. */
@@ -100,6 +100,25 @@ async function redePrimeiro(requisicao) {
       cache: "no-cache",
       credentials: "same-origin",
     });
+
+    /**
+     * `respondWith()` **recusa** uma resposta redirecionada quando a
+     * requisição é de navegação. E o site inteiro usa `trailingSlash`,
+     * então `/hoje` responde 301 para `/hoje/` — que é exatamente o
+     * endereço que alguém digita ou compartilha.
+     *
+     * Sem este trecho, toda URL sem a barra final quebrava com o
+     * service worker ativo, e só com ele: o bug não existia antes e
+     * não aparecia em nenhuma navegação interna do app, porque essas
+     * já vão com a barra. Apareceu na varredura das nove telas.
+     *
+     * Devolver o redirecionamento explicitamente faz o navegador
+     * navegar de novo, agora para o endereço canônico.
+     */
+    if (resposta.redirected && requisicao.mode === "navigate") {
+      return Response.redirect(resposta.url, 302);
+    }
+
     if (resposta && resposta.ok) cache.put(requisicao, resposta.clone());
     return resposta;
   } catch (erro) {
