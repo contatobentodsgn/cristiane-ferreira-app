@@ -1,2 +1,2 @@
-:HL["/cristiane-ferreira-app/_next/static/chunks/3r-s4jx8uz63l.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"bhiVVviMdFmpBgeZY-pKh"}
+:HL["/cristiane-ferreira-app/_next/static/chunks/1e6e9pspwlbhr.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"Ju75JD69q0iOdHD3uYBqi"}
