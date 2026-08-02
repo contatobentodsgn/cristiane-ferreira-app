@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
-2:I[51510,["/cristiane-ferreira-app/_next/static/chunks/19266e7uta9v0.js","/cristiane-ferreira-app/_next/static/chunks/08i3qwm_r6g6n.js"],"ClientPageRoot"]
-3:I[69866,["/cristiane-ferreira-app/_next/static/chunks/19266e7uta9v0.js","/cristiane-ferreira-app/_next/static/chunks/08i3qwm_r6g6n.js","/cristiane-ferreira-app/_next/static/chunks/0qluxbh46yn_t.js","/cristiane-ferreira-app/_next/static/chunks/04sblmzss-x77.js"],"default"]
-6:I[26138,["/cristiane-ferreira-app/_next/static/chunks/19266e7uta9v0.js","/cristiane-ferreira-app/_next/static/chunks/08i3qwm_r6g6n.js"],"OutletBoundary"]
+2:I[51510,["/cristiane-ferreira-app/_next/static/chunks/38n1djo00t738.js","/cristiane-ferreira-app/_next/static/chunks/08i3qwm_r6g6n.js"],"ClientPageRoot"]
+3:I[69866,["/cristiane-ferreira-app/_next/static/chunks/38n1djo00t738.js","/cristiane-ferreira-app/_next/static/chunks/08i3qwm_r6g6n.js","/cristiane-ferreira-app/_next/static/chunks/18_qyi6px4h9c.js","/cristiane-ferreira-app/_next/static/chunks/27kuoqo0_jqp5.js"],"default"]
+6:I[26138,["/cristiane-ferreira-app/_next/static/chunks/38n1djo00t738.js","/cristiane-ferreira-app/_next/static/chunks/08i3qwm_r6g6n.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/cristiane-ferreira-app/_next/static/chunks/04sblmzss-x77.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"W1h4vTi0nHTT8JOGMBkV1"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/cristiane-ferreira-app/_next/static/chunks/27kuoqo0_jqp5.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"29N-jRjH1jxAqttwb03Yv"}
 4:{}
 5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
 8:null
